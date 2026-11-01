@@ -4,16 +4,21 @@ import "../styles.css";
 const OG = "https://framerusercontent.com/images/8jkfueKXIFT9daAnH9YTyNySoBE.webp?scale-down-to=1024";
 
 export const metadata: Metadata = {
-  title: "Engr. Umair Iftikhar — CTO & Co-Founder | Technology Leader",
-  description: "Building Technology. Empowering People. Creating Digital Impact. CTO & Co-Founder of i3 Group of Companies and COO at Youth Empowerment Training Program (YETP).",
+  title: "Engr. Umair Iftikhar — Technology Leader • Executive • Digital Solutions Strategist",
+  description: "Personal Portfolio of Engr. Umair Iftikhar — Engineering Digital Solutions That Create Real-World Impact. CTO & Co-Founder, technology executive, and digital solutions strategist.",
+  metadataBase: new URL("https://engrumairiftikhar.com"),
   openGraph: {
-    title: "Engr. Umair Iftikhar — Technology Leader & Entrepreneur",
-    description: "Building scalable digital solutions, leading technology teams, and driving digital transformation.",
+    title: "Engr. Umair Iftikhar — Engineering Digital Solutions",
+    description: "A premium executive, technology leadership and digital solutions portfolio for engrumairiftikhar.com.",
+    url: "https://engrumairiftikhar.com",
+    siteName: "Engr. Umair Iftikhar Portfolio",
     type: "website",
     images: [{ url: OG }],
   },
   twitter: {
     card: "summary_large_image",
+    title: "Engr. Umair Iftikhar — Technology Leader & Digital Strategist",
+    description: "Engineering digital solutions that create real-world impact.",
     images: [OG],
   },
   icons: {

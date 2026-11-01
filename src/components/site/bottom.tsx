@@ -73,19 +73,19 @@ export function Voices() {
             <div className="max-w-[500px]">
               <div className="flex items-center gap-2.5 text-[10px] sm:text-[12px] font-mono tracking-[0.22em] uppercase text-[#7c807b]">
                 <span className="h-px w-5 bg-[#7c807b]" />
-                IN THEIR WORDS
+                11. TESTIMONIALS &amp; ENDORSEMENTS
               </div>
 
               <h2 className="mt-3 sm:mt-5 font-display text-[clamp(28px,5vw,78px)] font-medium leading-[1.05] tracking-[-0.04em] text-[#121312]">
-                What principals say when I am <span className="serif-i text-[#ab7338] font-normal italic">not</span> in the room.
+                What partners &amp; leaders say about <span className="serif-i text-[#ab7338] font-normal italic">impact.</span>
               </h2>
 
               <p className="mt-2.5 sm:mt-5 text-[13px] sm:text-[15px] leading-[1.5] text-[#696f6a] max-w-[420px]">
-                Names are shortened at clients&apos; request. References are available after a chemistry call.
+                Professional relationships are built through trust, execution and results. Verified endorsements from executives, academic chairs, and organizations.
               </p>
 
               <div className="mt-3 sm:mt-6 font-mono text-[10px] sm:text-[11px] tracking-[0.2em] uppercase text-[#7c807b]">
-                05 VOICES
+                05 ENDORSEMENTS
               </div>
             </div>
 
@@ -238,18 +238,18 @@ export function About() {
             <div>
               <div className="flex items-center gap-2.5 text-[10px] sm:text-[12px] font-mono tracking-[0.24em] uppercase text-[#c99557]">
                 <span className="h-px w-6 bg-[#c99557]" />
-                ABOUT
+                02. ABOUT ME &amp; 03. LEADERSHIP PROFILE
               </div>
 
               <h2 className="mt-3 sm:mt-6 font-display text-[clamp(28px,4.5vw,74px)] font-medium leading-[1.05] tracking-[-0.04em] text-[#f4efe6]">
-                Years inside <span className="serif-i text-[#c99557] font-normal italic">systems</span> like yours.
+                Engineering thinking with <span className="serif-i text-[#c99557] font-normal italic">strategic</span> execution.
               </h2>
             </div>
 
             {/* Right Column: Narrative + Key Accreditations + Signature */}
             <div className="max-w-[560px] lg:justify-self-end">
               <p className="text-[13px] sm:text-[16px] leading-[1.6] text-[#c2c7c2]">
-                As CTO &amp; Co-Founder of i3 Group of Companies and COO of YETP, I lead software engineering, scale microservices, and deploy high-impact technical programs. I know what production pressure feels like — and how to engineer lasting systems.
+                I am Engr. Umair Iftikhar, a Computer Engineer and technology professional passionate about transforming ideas into practical digital solutions. My journey has evolved through technology leadership, software and web development, digital strategy, corporate training and large-scale youth initiatives.
               </p>
 
               {/* Bullet Points with Diamond Icons matching screenshot */}
@@ -260,15 +260,19 @@ export function About() {
                 </li>
                 <li className="flex items-center gap-2.5 sm:gap-3">
                   <span className="text-[#c99557] text-[8px] sm:text-[9px]">◆</span>
-                  <span>CTO RECOGNITION AWARD — FORMER GOVERNOR PUNJAB (2020)</span>
-                </li>
-                <li className="flex items-center gap-2.5 sm:gap-3">
-                  <span className="text-[#c99557] text-[8px] sm:text-[9px]">◆</span>
-                  <span>MAJICC 2021 RESEARCH ON IOT-BASED SMART FARMING</span>
+                  <span>CTO &amp; CO-FOUNDER — I3 GROUP OF COMPANIES</span>
                 </li>
                 <li className="flex items-center gap-2.5 sm:gap-3">
                   <span className="text-[#c99557] text-[8px] sm:text-[9px]">◆</span>
                   <span>COO — YOUTH EMPOWERMENT TRAINING PROGRAM (YETP)</span>
+                </li>
+                <li className="flex items-center gap-2.5 sm:gap-3">
+                  <span className="text-[#c99557] text-[8px] sm:text-[9px]">◆</span>
+                  <span>CTO RECOGNITION AWARD — FORMER GOVERNOR PUNJAB (2020)</span>
+                </li>
+                <li className="flex items-center gap-2.5 sm:gap-3">
+                  <span className="text-[#c99557] text-[8px] sm:text-[9px]">◆</span>
+                  <span>MAJICC 2021 IEEE RESEARCH ON IOT-BASED SMART FARMING</span>
                 </li>
               </ul>
 
@@ -280,7 +284,7 @@ export function About() {
 
                 <div className="flex items-center gap-4">
                   <Pill href="#contact" variant="brass">
-                    Get in touch ↗
+                    Get in Touch ↗
                   </Pill>
                 </div>
               </div>
@@ -296,10 +300,10 @@ export function About() {
 }
 
 const POSTS = [
-  ["Research", "MAJICC 2021 · IEEE", "IoT Based Monitoring in Smart Farming", "Exploring how sensor automation and connected telemetry optimize soil metrics, water management, and agricultural yield.", "BvE0UdZxDKSGoGIwN0uOxbvc5E"],
-  ["Technology", "Software · React & Node", "Modern Scalable Web Architectures", "How reactive frontends paired with modular Node.js microservices allow fast scaling for emerging technology companies.", "qNu5vvbm5fbXRo9QelIr0erM0"],
-  ["Education", "Workforce · YETP", "Empowering Youth for the Global Economy", "Key operational lessons from equipping over 10,000 students with market-relevant IT, programming, and freelance skills.", "nQ1lApEF5N0b1CKgXj9flJrYc"],
-  ["Security", "Cyber Secure Pakistan", "Cybersecurity Literacy in Modern Digital Systems", "Why foundational digital hygiene and cyber talent pipelines are vital for both startups and state infrastructure.", "z5MQSE0EqfjxmDrgOPiYdNc"],
+  ["Emerging Tech", "Web Development & Architecture", "Building Scalable Modern Web Platforms", "Engineering modern, purpose-driven websites and web applications designed around business requirements and user needs.", "qNu5vvbm5fbXRo9QelIr0erM0"],
+  ["Research", "MAJICC 2021 · IEEE Published", "IoT Based Monitoring & Control in Smart Farming", "Exploring Internet of Things technologies for intelligent monitoring and control, connecting engineering with agricultural impact.", "BvE0UdZxDKSGoGIwN0uOxbvc5E"],
+  ["Strategy", "Digital Transformation & AI", "Technology Leadership & Scalable Solutions", "How technology leaders create the structure, momentum and clarity required to turn ambitious ideas into meaningful outcomes.", "xW7mWNmDb2pifyrrP0WmkpoURzY"],
+  ["Ecosystem", "Skills & Workforce · YETP", "Empowering Youth for the Digital Future", "Operational takeaways from supporting large-scale skills training, freelancing development and youth empowerment across Pakistan.", "nQ1lApEF5N0b1CKgXj9flJrYc"],
 ] as const;
 
 export function Insights() {
@@ -329,10 +333,10 @@ export function Insights() {
             <div>
               <div className="flex items-center gap-3 text-[11px] font-mono tracking-[0.22em] uppercase text-[#7a817b]">
                 <span className="h-px w-5 bg-[#b57a38]" />
-                INSIGHTS
+                12. INSIGHTS &amp; THOUGHT LEADERSHIP
               </div>
               <h2 className="mt-4 font-display text-[clamp(36px,5.8vw,76px)] font-medium leading-[1.02] tracking-[-0.045em] text-[#111413]">
-                Notes from the <span className="serif-i text-[#b57a38] font-normal">corridor.</span>
+                Perspectives on <span className="serif-i text-[#b57a38] font-normal">innovation &amp; impact.</span>
               </h2>
             </div>
 
@@ -344,10 +348,10 @@ export function Insights() {
                 <span className="text-[14px] text-[#858d87] font-mono ml-2">/ 04</span>
               </div>
               <a
-                href="#insights"
+                href="#contact"
                 className="inline-flex h-11 items-center gap-2.5 rounded-full border border-ink/20 bg-transparent px-6 text-[13px] sm:text-[14px] font-medium text-ink transition-all duration-300 hover:bg-ink hover:text-[#f5efe6]"
               >
-                All insights
+                Start a Conversation
                 <span className="text-[15px]">→</span>
               </a>
             </div>
@@ -465,67 +469,192 @@ export function Faq() {
 }
 
 export function Cta() {
+  const [submitted, setSubmitted] = useState(false);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    org: "",
+    subject: "",
+    details: "",
+  });
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    setSubmitted(true);
+  };
+
   return (
-    <section id="contact" className="relative min-h-[750px] sm:min-h-[850px] overflow-hidden bg-[#0c100e] text-bone flex flex-col justify-center py-20 sm:py-28 md:py-36">
+    <section id="contact" className="relative min-h-[850px] overflow-hidden bg-[#0c100e] text-bone flex flex-col justify-center py-20 sm:py-28 md:py-36">
       {/* Background with user portrait image from hero section with cinematic overlay */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 pointer-events-none">
         <img
           src="/umair-portrait.png"
           alt="Engr. Umair Iftikhar"
-          className="h-full w-full object-cover object-center grayscale contrast-125 opacity-35"
+          className="h-full w-full object-cover object-center grayscale contrast-125 opacity-20"
         />
         {/* Cinematic emerald-night gradient tint */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0b0f0d]/95 via-[#0b0f0d]/80 to-[#0b0f0d]/90" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0b0f0d] via-transparent to-[#0b0f0d]/60" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0b0f0d]/95 via-[#0b0f0d]/85 to-[#0b0f0d]/90" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0b0f0d] via-transparent to-[#0b0f0d]/70" />
       </div>
 
       <div className="relative z-10 mx-auto w-full max-w-[1440px] px-6 sm:px-10 md:px-16">
-        <div className="flex items-center gap-3 text-[11px] font-mono tracking-[0.22em] uppercase text-bone/70">
-          <span className="h-px w-5 bg-brass" />
-          ACCEPTING COLLABORATIONS &amp; ADVISORY — Q4 2026
-        </div>
+        <div className="grid gap-12 lg:grid-cols-[1.1fr_1.3fr] lg:gap-16 items-start">
+          
+          {/* Left Column: Headline & Intro */}
+          <div>
+            <div className="flex items-center gap-3 text-[11px] font-mono tracking-[0.22em] uppercase text-bone/70">
+              <span className="h-px w-5 bg-brass" />
+              13. CONTACT ME
+            </div>
 
-        <h2 className="mt-8 font-display text-[clamp(44px,7.5vw,104px)] font-medium leading-[1.0] tracking-[-0.045em] text-white max-w-[920px]">
-          Start with <br />
-          <span className="font-normal text-white">twenty-five </span>
-          <span className="serif-i text-brass font-normal">minutes.</span>
-        </h2>
+            <h2 className="mt-6 font-display text-[clamp(40px,6.5vw,88px)] font-medium leading-[1.0] tracking-[-0.045em] text-white">
+              Let&apos;s Build <br />
+              <span className="serif-i text-brass font-normal">Something Meaningful.</span>
+            </h2>
 
-        <p className="mt-8 max-w-[540px] text-[15px] sm:text-[17px] leading-[1.65] text-[#d6ddd8]">
-          No deck, no pitch. You talk, I listen, and we both find out whether I am the right partner for the next phase of your technology vision.
-        </p>
+            <p className="mt-6 max-w-[500px] text-[15px] sm:text-[17px] leading-[1.65] text-[#d6ddd8]">
+              I welcome opportunities for professional collaboration, technology partnerships, digital projects, strategic initiatives and conversations around innovation.
+            </p>
 
-        {/* Floating circular spinning / badge button from reference image */}
-        <div className="mt-12 flex flex-wrap items-center justify-between gap-8">
-          <div className="flex flex-wrap gap-4">
-            <Pill href="mailto:engrumairiftikhar@gmail.com">Book a Call</Pill>
-            <Pill href="https://linkedin.com" variant="ghost-dark">LinkedIn Profile</Pill>
+            <p className="mt-4 max-w-[500px] text-[14px] sm:text-[15px] leading-[1.6] text-[#a5afa7]">
+              If you have an idea, project or opportunity where technology and strategic execution can create meaningful value, I would be glad to connect.
+            </p>
+
+            <div className="mt-8 flex flex-wrap gap-4">
+              <Pill href="mailto:engrumairiftikhar@gmail.com">Direct Email</Pill>
+              <Pill href="https://linkedin.com" variant="ghost-dark">LinkedIn Profile</Pill>
+            </div>
+
+            <div className="mt-10 pt-8 border-t border-white/10 space-y-2 text-[13px] font-mono text-bone/60">
+              <div className="flex items-center gap-3">
+                <span className="text-brass">Email:</span>
+                <a href="mailto:engrumairiftikhar@gmail.com" className="hover:text-brass text-white transition-colors">
+                  engrumairiftikhar@gmail.com
+                </a>
+              </div>
+              <div className="flex items-center gap-3">
+                <span className="text-brass">Domain:</span>
+                <span className="text-white">engrumairiftikhar.com</span>
+              </div>
+              <div className="flex items-center gap-3">
+                <span className="text-brass">Location:</span>
+                <span className="text-white">Lahore, Pakistan</span>
+              </div>
+            </div>
           </div>
 
-          <a
-            href="mailto:engrumairiftikhar@gmail.com"
-            className="group relative flex h-36 w-36 sm:h-44 sm:w-44 items-center justify-center rounded-full bg-[#dfa86a] text-night transition-transform duration-500 hover:scale-105 shadow-2xl"
-          >
-            {/* Circular rotating text */}
-            <svg
-              className="absolute inset-0 h-full w-full animate-[spin_18s_linear_infinite]"
-              viewBox="0 0 160 160"
-            >
-              <path
-                id="circlePath"
-                d="M 80, 80 m -60, 0 a 60,60 0 1,1 120,0 a 60,60 0 1,1 -120,0"
-                fill="none"
-              />
-              <text className="font-mono text-[9px] font-medium tracking-[0.22em] uppercase fill-night">
-                <textPath href="#circlePath" startOffset="0%">
-                  • BOOK A CALL • LET’S CONNECT • ENGAGE • ADVISORY
-                </textPath>
-              </text>
-            </svg>
-            <span className="text-[26px] sm:text-[32px] font-light transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1">
-              ↗
-            </span>
-          </a>
+          {/* Right Column: Contact Form with PDF Suggested Fields */}
+          <div className="rounded-[26px] border border-white/10 bg-white/[0.03] p-8 sm:p-10 backdrop-blur-md shadow-2xl">
+            <h3 className="font-display text-[24px] sm:text-[28px] font-medium text-white mb-2">
+              Start a Conversation
+            </h3>
+            <p className="text-[13px] sm:text-[14px] text-bone/60 mb-6">
+              Fill out the details below to discuss a project, advisory, or digital initiative.
+            </p>
+
+            {submitted ? (
+              <motion.div
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
+                className="rounded-xl border border-brass/30 bg-brass/10 p-6 text-center"
+              >
+                <span className="text-brass text-[36px] block mb-2">✓</span>
+                <h4 className="font-display text-[20px] font-medium text-white">Thank You for Connecting</h4>
+                <p className="mt-2 text-[14px] text-bone/80">
+                  Your message has been received. Engr. Umair Iftikhar will respond shortly.
+                </p>
+                <button
+                  type="button"
+                  onClick={() => setSubmitted(false)}
+                  className="mt-5 text-[12px] font-mono text-brass underline hover:text-white"
+                >
+                  Send another inquiry
+                </button>
+              </motion.div>
+            ) : (
+              <form onSubmit={handleSubmit} className="space-y-4">
+                <div className="grid gap-4 sm:grid-cols-2">
+                  <div>
+                    <label className="block text-[11px] font-mono tracking-wider uppercase text-bone/70 mb-1.5">
+                      Full Name *
+                    </label>
+                    <input
+                      type="text"
+                      required
+                      placeholder="e.g. John Doe"
+                      value={formData.name}
+                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                      className="w-full rounded-xl border border-white/15 bg-white/5 px-4 py-3 text-[14px] text-white placeholder-bone/30 outline-none focus:border-brass transition-colors"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-[11px] font-mono tracking-wider uppercase text-bone/70 mb-1.5">
+                      Email Address *
+                    </label>
+                    <input
+                      type="email"
+                      required
+                      placeholder="e.g. john@company.com"
+                      value={formData.email}
+                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                      className="w-full rounded-xl border border-white/15 bg-white/5 px-4 py-3 text-[14px] text-white placeholder-bone/30 outline-none focus:border-brass transition-colors"
+                    />
+                  </div>
+                </div>
+
+                <div className="grid gap-4 sm:grid-cols-2">
+                  <div>
+                    <label className="block text-[11px] font-mono tracking-wider uppercase text-bone/70 mb-1.5">
+                      Organization / Company
+                    </label>
+                    <input
+                      type="text"
+                      placeholder="e.g. Acme Corp / Institute"
+                      value={formData.org}
+                      onChange={(e) => setFormData({ ...formData, org: e.target.value })}
+                      className="w-full rounded-xl border border-white/15 bg-white/5 px-4 py-3 text-[14px] text-white placeholder-bone/30 outline-none focus:border-brass transition-colors"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-[11px] font-mono tracking-wider uppercase text-bone/70 mb-1.5">
+                      Subject *
+                    </label>
+                    <input
+                      type="text"
+                      required
+                      placeholder="e.g. Web Platform / CTO Advisory"
+                      value={formData.subject}
+                      onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
+                      className="w-full rounded-xl border border-white/15 bg-white/5 px-4 py-3 text-[14px] text-white placeholder-bone/30 outline-none focus:border-brass transition-colors"
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <label className="block text-[11px] font-mono tracking-wider uppercase text-bone/70 mb-1.5">
+                    Project / Opportunity Details *
+                  </label>
+                  <textarea
+                    required
+                    rows={4}
+                    placeholder="Tell me about your project, goals, timeline, or collaboration ideas..."
+                    value={formData.details}
+                    onChange={(e) => setFormData({ ...formData, details: e.target.value })}
+                    className="w-full rounded-xl border border-white/15 bg-white/5 px-4 py-3 text-[14px] text-white placeholder-bone/30 outline-none focus:border-brass transition-colors resize-none"
+                  />
+                </div>
+
+                <button
+                  type="submit"
+                  className="w-full flex h-12 items-center justify-center gap-3 rounded-full bg-brass px-7 text-[14px] font-medium text-night transition-transform hover:scale-[1.01] hover:bg-bone shadow-brass"
+                >
+                  <span>Start a Conversation</span>
+                  <span>→</span>
+                </button>
+              </form>
+            )}
+          </div>
+
         </div>
       </div>
     </section>
@@ -536,38 +665,53 @@ export function Footer() {
   return (
     <footer className="border-t border-bone/10 bg-[#0a0d0c] text-bone pt-20 sm:pt-28 pb-10">
       <div className="mx-auto max-w-[1440px] px-6 sm:px-10 md:px-16">
-        {/* Top 4-column layout matching screenshot */}
+        
+        {/* Top 4-column layout matching sitemap */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 sm:gap-14 lg:gap-16 pb-16 sm:pb-24">
-          {/* Column 1: Short Bio */}
-          <div className="max-w-[260px]">
-            <p className="text-[14px] sm:text-[15px] leading-[1.6] text-bone/65">
-              Technology leadership, software engineering, and digital transformation for growing organizations.
+          {/* Column 1: Short Bio & Brand */}
+          <div className="max-w-[280px]">
+            <strong className="block font-display text-[20px] text-white mb-2">
+              Engr. Umair Iftikhar
+            </strong>
+            <p className="text-[13px] sm:text-[14px] leading-[1.6] text-bone/65 mb-4">
+              Engineering Digital Solutions That Create Real-World Impact. Technology leader, executive, and digital solutions strategist.
+            </p>
+            <p className="font-mono text-[11px] text-brass">
+              engrumairiftikhar.com
             </p>
           </div>
 
           {/* Column 2: Navigation Links 1 */}
-          <div className="flex flex-col gap-4">
-            <a href="#ventures" className="font-display text-[22px] sm:text-[26px] font-medium text-bone hover:text-brass transition-colors">
-              Ventures
+          <div className="flex flex-col gap-3.5">
+            <span className="font-mono text-[11px] tracking-widest uppercase text-bone/40 mb-1">PAGES</span>
+            <a href="#about" className="font-display text-[18px] sm:text-[22px] font-medium text-bone hover:text-brass transition-colors">
+              About Me
             </a>
-            <a href="#about" className="font-display text-[22px] sm:text-[26px] font-medium text-bone hover:text-brass transition-colors">
-              About
+            <a href="#leadership" className="font-display text-[18px] sm:text-[22px] font-medium text-bone hover:text-brass transition-colors">
+              Leadership Profile
             </a>
-            <a href="#how" className="font-display text-[22px] sm:text-[26px] font-medium text-bone hover:text-brass transition-colors">
-              Framework
+            <a href="#expertise" className="font-display text-[18px] sm:text-[22px] font-medium text-bone hover:text-brass transition-colors">
+              Expertise &amp; Services
+            </a>
+            <a href="#how" className="font-display text-[18px] sm:text-[22px] font-medium text-bone hover:text-brass transition-colors">
+              Execution Approach
             </a>
           </div>
 
           {/* Column 3: Navigation Links 2 */}
-          <div className="flex flex-col gap-4">
-            <a href="#experience" className="font-display text-[22px] sm:text-[26px] font-medium text-bone hover:text-brass transition-colors">
-              Experience
+          <div className="flex flex-col gap-3.5">
+            <span className="font-mono text-[11px] tracking-widest uppercase text-bone/40 mb-1">VENTURES &amp; WORK</span>
+            <a href="#projects" className="font-display text-[18px] sm:text-[22px] font-medium text-bone hover:text-brass transition-colors">
+              Projects &amp; Ventures
             </a>
-            <a href="#insights" className="font-display text-[22px] sm:text-[26px] font-medium text-bone hover:text-brass transition-colors">
-              Insights
+            <a href="#initiatives" className="font-display text-[18px] sm:text-[22px] font-medium text-bone hover:text-brass transition-colors">
+              Initiatives &amp; Impact
             </a>
-            <a href="#contact" className="font-display text-[22px] sm:text-[26px] font-medium text-bone hover:text-brass transition-colors">
-              Book a call
+            <a href="#insights" className="font-display text-[18px] sm:text-[22px] font-medium text-bone hover:text-brass transition-colors">
+              Insights &amp; Articles
+            </a>
+            <a href="#contact" className="font-display text-[18px] sm:text-[22px] font-medium text-bone hover:text-brass transition-colors">
+              Contact &amp; Connect
             </a>
           </div>
 
@@ -575,7 +719,7 @@ export function Footer() {
           <div className="space-y-6">
             <div>
               <p className="eyebrow text-[10px] sm:text-[11px] font-mono tracking-[0.2em] uppercase text-bone/40 mb-2">
-                CONTACT
+                DIRECT INQUIRIES
               </p>
               <a href="mailto:engrumairiftikhar@gmail.com" className="block text-[14px] sm:text-[15px] text-bone hover:text-brass transition-colors">
                 engrumairiftikhar@gmail.com
@@ -587,25 +731,35 @@ export function Footer() {
 
             <div>
               <p className="eyebrow text-[10px] sm:text-[11px] font-mono tracking-[0.2em] uppercase text-bone/40 mb-2">
-                ELSEWHERE
+                ACADEMIC &amp; SOCIAL
               </p>
               <div className="flex flex-col gap-1.5 text-[14px] text-bone/80">
                 <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-brass transition-colors">
-                  LinkedIn
+                  LinkedIn Profile
                 </a>
                 <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-brass transition-colors">
                   GitHub
                 </a>
                 <a href="https://ieeexplore.ieee.org" target="_blank" rel="noopener noreferrer" className="hover:text-brass transition-colors">
-                  MAJICC Research Paper
+                  MAJICC 2021 IEEE Research
                 </a>
               </div>
             </div>
           </div>
         </div>
 
+        {/* Final Brand Message Callout */}
+        <div className="border-t border-bone/10 py-10 text-center">
+          <p className="font-mono text-[11px] tracking-[0.25em] uppercase text-brass mb-3">
+            FINAL BRAND MESSAGE
+          </p>
+          <p className="font-display text-[22px] sm:text-[28px] md:text-[34px] font-medium text-white max-w-[800px] mx-auto leading-tight">
+            Building digital solutions and technology-driven initiatives that create <span className="serif-i text-brass font-normal">meaningful progress.</span>
+          </p>
+        </div>
+
         {/* Massive Signature Name on a single line */}
-        <div className="border-t border-bone/10 pt-10 sm:pt-16 pb-4 overflow-hidden flex justify-center">
+        <div className="border-t border-bone/10 pt-8 sm:pt-12 pb-4 overflow-hidden flex justify-center">
           <h1 className="select-none text-center font-display text-[clamp(44px,11.5vw,168px)] font-medium leading-none tracking-[-0.05em] text-white whitespace-nowrap">
             Umair <span className="serif-i text-brass font-normal">Iftikhar</span>
           </h1>

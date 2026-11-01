@@ -4,11 +4,13 @@ import { ArrowUpRight, Menu, X } from "lucide-react";
 import { Counter, EASE, Eyebrow, Pill, SplitHeading, img } from "./primitives";
 
 const NAV = [
-  { name: "Coaching", href: "#experience" },
-  { name: "Results", href: "#results" },
   { name: "About", href: "#about" },
-  { name: "Insights", href: "#insights" },
-  { name: "Speaking", href: "#contact" },
+  { name: "Leadership", href: "#leadership" },
+  { name: "Experience", href: "#experience" },
+  { name: "Expertise", href: "#expertise" },
+  { name: "Projects", href: "#projects" },
+  { name: "Initiatives", href: "#initiatives" },
+  { name: "Contact", href: "#contact" },
 ];
 
 export function Nav() {
@@ -31,12 +33,12 @@ export function Nav() {
             Umair Iftikhar
           </span>
           <span className="hidden md:inline text-[11px] font-mono tracking-[0.2em] uppercase text-[#a2a89c] pl-2 border-l border-white/20 whitespace-nowrap">
-            CTO &amp; CO-FOUNDER
+            TECHNOLOGY LEADER &amp; STRATEGIST
           </span>
         </a>
 
         {/* Center: Nav links */}
-        <nav className="hidden md:flex items-center gap-7 lg:gap-9">
+        <nav className="hidden md:flex items-center gap-7 lg:gap-8">
           {NAV.map((n) => (
             <a
               key={n.name}
@@ -48,14 +50,14 @@ export function Nav() {
           ))}
         </nav>
 
-        {/* Right: Book a call Gold Button with dark target dot */}
+        {/* Right: Get in Touch Gold Button with dark target dot */}
         <div className="flex items-center gap-2 sm:gap-3">
           <a
             href="#contact"
             className="flex h-9 sm:h-10 items-center gap-2 sm:gap-2.5 rounded-full bg-[#c99557] px-4 sm:px-5 text-[12px] sm:text-[13px] font-medium text-[#14120e] transition-transform duration-200 hover:scale-[1.03] hover:bg-[#d8a76b] whitespace-nowrap shadow-sm"
           >
             <span className="h-2 w-2 rounded-full bg-[#14120e] ring-2 ring-[#14120e]/20" />
-            Book a call
+            Get in Touch
           </a>
 
           {/* Mobile hamburger button */}
@@ -100,8 +102,8 @@ export function Nav() {
 
 const QUOTES = [
   ["A technology leader who pairs deep technical architecture with commercial execution.", "Former Governor Chaudhry Sarwar — CTO Recognition 2020"],
-  ["His work at YETP transformed how thousands of youth access modern IT & digital skills.", "Executive Board — Youth Empowerment Training Program"],
-  ["Pioneering IoT smart farming research that bridges academic rigor with agricultural impact.", "MAJICC Conference Committee — Research Review 2021"],
+  ["His operational leadership at YETP expanded access to modern digital skills and opportunity for youth.", "Executive Council — Youth Empowerment Training Program"],
+  ["Pioneering IoT smart farming research bridging engineering and connected systems to real-world challenges.", "MAJICC Conference Committee — MAJICC 2021 / IEEE"],
 ] as const;
 const BARS = [64, 0, 96, 0, 72, 20].map((t, i) => ({ l: i * 79, t, d: 0.1 + i * 0.15 }));
 
@@ -168,30 +170,30 @@ export function Hero() {
 
       <div className="relative mx-auto flex min-h-[720px] sm:min-h-[820px] md:min-h-[920px] max-w-[1440px] flex-col justify-end px-6 sm:px-10 md:px-16 pb-8 sm:pb-12">
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 0.3 }} className="eyebrow mb-5 sm:mb-7 flex items-center gap-2 sm:gap-3 text-[11px] sm:text-[12px] text-bone/80">
-          <span className="h-2 w-2 rounded-full bg-brass ring-2 ring-brass/30 shrink-0" /> CTO & Co-Founder — i3 Group · COO — YETP
+          <span className="h-2 w-2 rounded-full bg-brass ring-2 ring-brass/30 shrink-0" /> TECHNOLOGY LEADER • EXECUTIVE • DIGITAL SOLUTIONS STRATEGIST
         </motion.div>
 
-        {/* Refined Headline: smaller font size & tight max-width so it never touches the portrait image */}
-        <h1 className="font-display max-w-[620px] xl:max-w-[680px] text-[clamp(30px,4.6vw,56px)] font-medium leading-[1.08] tracking-[-0.035em] text-white">
-          {line(["Building", "technology.", "Empowering"], 0.4)}
+        {/* Headline exactly matching PDF Page 2 */}
+        <h1 className="font-display max-w-[660px] xl:max-w-[740px] text-[clamp(32px,4.8vw,60px)] font-medium leading-[1.06] tracking-[-0.035em] text-white">
+          {line(["Engineering", "Digital", "Solutions"], 0.4)}
           <br />
-          {line(["people.", <span className="serif-i text-brass font-normal italic">Creating</span>, "digital", "impact."], 0.65)}
+          {line(["That", <span className="serif-i text-brass font-normal italic">Create</span>, "Real-World", "Impact."], 0.65)}
         </h1>
 
-        <motion.p initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.9, ease: EASE }} className="mt-4 sm:mt-6 max-w-[500px] text-[14px] sm:text-[16px] leading-[1.65] text-[#d6ddd8]">
-          I’m Engr. Umair Iftikhar, a technology leader, software engineer, and entrepreneur passionate about building scalable digital solutions, leading engineering teams, and driving large-scale digital transformation.
+        <motion.p initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 0.9, ease: EASE }} className="mt-4 sm:mt-6 max-w-[560px] text-[14px] sm:text-[16px] leading-[1.65] text-[#d6ddd8]">
+          I am <strong className="text-white font-medium">Engr. Umair Iftikhar</strong> — a technology professional, executive leader and digital solutions strategist focused on building meaningful digital platforms, leading technology-driven initiatives and transforming ideas into scalable solutions.
         </motion.p>
 
         <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 1.05, ease: EASE }} className="mt-6 sm:mt-8 flex flex-wrap gap-3">
-          <Pill href="#experience">Explore My Work</Pill>
-          <Pill href="#contact" variant="ghost-dark">Let’s Connect</Pill>
+          <Pill href="#projects">Explore My Work</Pill>
+          <Pill href="#contact" variant="ghost-dark">Get in Touch</Pill>
         </motion.div>
 
-        <motion.ul initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 1.2 }} className="mt-7 sm:mt-9 grid max-w-[540px] grid-cols-3 border-t border-bone/20 gap-2 sm:gap-0">
+        <motion.ul initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 1.2 }} className="mt-7 sm:mt-9 grid max-w-[560px] grid-cols-3 border-t border-bone/20 gap-2 sm:gap-0">
           {[
-            [<><Counter to={10} />k+</>, "STUDENTS & YOUTH TRAINED"],
+            [<><Counter to={10} />k+</>, "YOUTH & TALENT EMPOWERED"],
             [<><Counter to={2020} /></>, "GOVERNOR CTO AWARD"],
-            ["MAJICC", "IEEE / IOT PUBLISHED"],
+            ["MAJICC", "IEEE / IOT RESEARCH"],
           ].map(([n, l], i) => (
             <li key={i} className={`pt-3.5 sm:pt-4 ${i ? "border-l border-bone/20 pl-3 sm:pl-5" : ""}`}>
               <div className="font-display text-[24px] sm:text-[32px] font-semibold text-white tracking-[-0.04em]">{n}</div>
@@ -224,14 +226,23 @@ export function Hero() {
   );
 }
 
-const LOGOS = ["i3 Group of Companies", "YETP", "Hunarmand Punjab", "Cyber Secure Pakistan", "The University of Lahore", "MAJICC IEEE 2021", "Jang Media Group", "Ministry of IT"];
+const LOGOS = [
+  "i3 Group of Companies",
+  "Youth Empowerment (YETP)",
+  "Hunarmand Punjab",
+  "Cyber Secure Pakistan",
+  "National E-Commerce Program (NEIP)",
+  "The University of Lahore",
+  "MAJICC 2021 IEEE",
+  "Ministry of IT",
+];
 
 export function Logos() {
   return (
     <section className="border-y border-ink/10 bg-[#f4efe6] py-10 sm:py-14 text-ink">
       <div className="mx-auto max-w-[1440px] px-6 sm:px-10 md:px-16">
         <p className="eyebrow mb-6 sm:mb-8 text-[11px] sm:text-[12px] font-semibold tracking-[0.2em] text-[#555d58] uppercase">
-          Organizations, Ventures &amp; Recognition Involving Engr. Umair Iftikhar
+          Key Affiliations, Ventures &amp; Recognition Involving Engr. Umair Iftikhar
         </p>
       </div>
       <div className="overflow-hidden [mask-image:linear-gradient(90deg,transparent,black_10%,black_90%,transparent)]">
@@ -250,9 +261,90 @@ export function Logos() {
   );
 }
 
+const HIGHLIGHTS = [
+  {
+    num: "01",
+    title: "Technology Leadership",
+    desc: "Strategic technology direction, digital platforms and solution-focused execution.",
+    tag: "Strategy & Vision",
+  },
+  {
+    num: "02",
+    title: "Web & Digital Solutions",
+    desc: "Modern web applications and scalable digital experiences built around real business needs.",
+    tag: "Modern Architecture",
+  },
+  {
+    num: "03",
+    title: "Innovation & Initiatives",
+    desc: "Technology, skills development, entrepreneurship and youth-focused digital initiatives.",
+    tag: "Ecosystem Impact",
+  },
+  {
+    num: "04",
+    title: "Research & Engineering",
+    desc: "Computer Engineering background supported by IEEE-published academic research.",
+    tag: "MAJICC 2021 / IoT",
+  },
+];
+
+export function QuickHighlights() {
+  return (
+    <section className="bg-[#0e1210] py-16 sm:py-20 border-b border-white/10 text-bone">
+      <div className="mx-auto max-w-[1440px] px-6 sm:px-10 md:px-16">
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 pb-10 border-b border-white/10">
+          <div>
+            <Eyebrow className="text-bone/60">Core Capabilities</Eyebrow>
+            <h2 className="mt-3 font-display text-[28px] sm:text-[38px] font-medium tracking-tight text-white">
+              Quick Highlights
+            </h2>
+          </div>
+          <p className="max-w-[460px] text-[14px] sm:text-[15px] leading-relaxed text-[#c3ccc5]">
+            Whether leading technology teams, developing digital platforms or supporting large-scale skills initiatives, the focus remains engineering practical solutions for a rapidly evolving digital world.
+          </p>
+        </div>
+
+        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {HIGHLIGHTS.map((h, i) => (
+            <motion.div
+              key={h.title}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7, delay: i * 0.1, ease: EASE }}
+              className="group relative flex flex-col justify-between rounded-2xl border border-white/10 bg-white/[0.03] p-6 hover:border-[#c99557]/40 hover:bg-white/[0.05] transition-all duration-300"
+            >
+              <div>
+                <div className="flex items-center justify-between font-mono text-[11px] text-[#9ba39e]">
+                  <span>{h.num}</span>
+                  <span className="rounded-full bg-white/5 px-2.5 py-0.5 text-[#c99557] border border-white/10">
+                    {h.tag}
+                  </span>
+                </div>
+                <h3 className="mt-5 font-display text-[20px] sm:text-[22px] font-medium text-white group-hover:text-[#c99557] transition-colors">
+                  {h.title}
+                </h3>
+                <p className="mt-2.5 text-[13px] sm:text-[14px] leading-relaxed text-[#b9c2bb]">
+                  {h.desc}
+                </p>
+              </div>
+              <div className="mt-6 pt-4 border-t border-white/5 flex items-center gap-2 text-[12px] font-mono text-[#c99557]">
+                <span>Explore</span>
+                <span className="transition-transform group-hover:translate-x-1">→</span>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 const BELIEF: [string, string?][] = [
-  ["Technology"], ["is"], ["most"], ["valuable"], ["when"], ["it"], ["solves"], ["practical"], ["problems,", "i"],
-  ["improves"], ["how"], ["organizations"], ["scale,"], ["and"], ["creates"], ["lasting"], ["opportunities"], ["for"], ["people"], ["to"], ["participate"], ["in"], ["the"], ["global", "i"], ["digital"], ["economy."],
+  ["Great"], ["leadership"], ["is"], ["not"], ["only"], ["about"], ["having"], ["a"], ["vision;"],
+  ["it"], ["is"], ["about"], ["creating"], ["the"], ["structure,", "i"], ["confidence"], ["and"], ["momentum"],
+  ["required"], ["to"], ["bring"], ["that"], ["vision"], ["to"], ["life."], ["Technology"], ["should"], ["solve", "i"],
+  ["real"], ["problems"], ["and"], ["create"], ["measurable"], ["opportunities."],
 ];
 
 function Word({ w, it, p, i, n }: { w: string; it?: string | undefined; p: any; i: number; n: number }) {
@@ -271,15 +363,17 @@ export function Belief() {
   const y1 = useTransform(scrollYProgress, [0, 1], [120, -120]);
   const y2 = useTransform(scrollYProgress, [0, 1], [220, -60]);
   return (
-    <section ref={ref} className="relative overflow-hidden bg-background py-20 sm:py-28 md:py-[180px]">
+    <section id="leadership" ref={ref} className="relative overflow-hidden bg-background py-20 sm:py-28 md:py-[180px]">
       <div className="mx-auto max-w-[1440px] px-6 sm:px-10 md:px-16">
-        <Eyebrow>Leadership Philosophy</Eyebrow>
+        <Eyebrow>Leadership Philosophy &amp; Executive Vision</Eyebrow>
         <p className="mt-6 sm:mt-10 max-w-[840px] font-display text-[clamp(24px,4.8vw,56px)] font-medium leading-[1.2] sm:leading-[1.1] tracking-[-0.03em] text-ink">
           {BELIEF.map(([w, it], i) => (
             <Word key={i} w={w} it={it} p={scrollYProgress} i={i} n={BELIEF.length} />
           ))}
         </p>
-        <p className="eyebrow mt-6 sm:mt-10 text-[11px] sm:text-[12px] text-muted-foreground">Engr. Umair Iftikhar — Innovation with Purpose</p>
+        <p className="eyebrow mt-6 sm:mt-10 text-[11px] sm:text-[12px] text-muted-foreground">
+          Brand Statement: &ldquo;I build, lead and support digital solutions that turn potential into progress.&rdquo;
+        </p>
       </div>
       <motion.img style={{ y: y1, rotate: r1 }} src={img("nQ1lApEF5N0b1CKgXj9flJrYc")} alt="" className="absolute right-[8%] top-[18%] hidden w-[230px] rounded-sm object-cover grayscale shadow-2xl lg:block" />
       <motion.img style={{ y: y2, rotate: -4 }} src={img("LDXsntWmcYCKrjXMgNxFQrMysaU")} alt="" className="absolute bottom-[6%] right-[20%] hidden w-[190px] rounded-sm object-cover grayscale shadow-2xl lg:block" />
@@ -288,20 +382,20 @@ export function Belief() {
 }
 
 const KINDS = [
-  ["i3 Group of Companies", "CTO & Co-Founder driving software engineering, tech strategy and digital scalability", "rs5SIFNdctg5E33P9h0yVvwhi8"],
-  ["Youth Empowerment (YETP)", "Chief Operating Officer connecting digital platforms, operations & workforce education", "DacUzNQu0nh2FZrhAlbJuwuDDDk"],
-  ["Hunarmand Punjab", "Contributing digital skills training, learning platforms and provincial reach", "LDXsntWmcYCKrjXMgNxFQrMysaU"],
-  ["Cyber Secure Pakistan", "Cybersecurity awareness, digital defenses and cultivating upcoming cyber talent", "Hid0HSBIHRkxCBU9ruRDeYDj5M"],
+  ["i3 Group of Companies", "CTO & Co-Founder — Technical vision, software development & digital platform systems", "rs5SIFNdctg5E33P9h0yVvwhi8"],
+  ["Youth Empowerment (YETP)", "COO & Leadership — Operations, digital training platforms & large-scale youth skills", "DacUzNQu0nh2FZrhAlbJuwuDDDk"],
+  ["Hunarmand Punjab", "Digital skills development, freelancing readiness and workforce transformation", "LDXsntWmcYCKrjXMgNxFQrMysaU"],
+  ["Cyber Secure Pakistan", "Cybersecurity awareness, digital defense initiatives & nurturing young cyber talent", "Hid0HSBIHRkxCBU9ruRDeYDj5M"],
 ] as const;
 
 export function Kinds() {
   const [hover, setHover] = useState<number | null>(null);
   const [pos, setPos] = useState({ x: 0, y: 0 });
   return (
-    <section id="ventures" className="bg-night-glow relative py-20 sm:py-28 md:py-[160px] text-bone" onMouseMove={(e) => setPos({ x: e.clientX, y: e.clientY })}>
+    <section id="initiatives" className="bg-night-glow relative py-20 sm:py-28 md:py-[160px] text-bone" onMouseMove={(e) => setPos({ x: e.clientX, y: e.clientY })}>
       <div className="mx-auto max-w-[1440px] px-6 sm:px-10 md:px-16">
-        <Eyebrow className="text-bone/55">Featured Ventures & Leadership</Eyebrow>
-        <SplitHeading text="Four pillars of *impact.*" className="mt-6 sm:mt-8 max-w-[760px] text-[clamp(38px,8vw,112px)] leading-[0.95]" />
+        <Eyebrow className="text-bone/55">Key Initiatives &amp; Impact</Eyebrow>
+        <SplitHeading text="Four pillars of *progress.*" className="mt-6 sm:mt-8 max-w-[760px] text-[clamp(38px,8vw,112px)] leading-[0.95]" />
         <ul className="mt-14 sm:mt-24 md:mt-32 border-t border-bone/15">
           {KINDS.map(([t, s], i) => (
             <li key={t} onMouseEnter={() => setHover(i)} onMouseLeave={() => setHover(null)}>
@@ -317,8 +411,8 @@ export function Kinds() {
           ))}
         </ul>
         <div className="mt-10 sm:mt-12 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
-          <p className="text-bone/55 text-[14px] sm:text-[16px]">Core Focus: Scalable software architectures, education, and <span className="serif-i text-[18px] sm:text-[20px] text-brass">sustainable innovation.</span></p>
-          <Pill href="#how" variant="ghost-dark">See How The Work Runs</Pill>
+          <p className="text-bone/55 text-[14px] sm:text-[16px]">Core Contribution: Technology strategy, digital platforms, operational execution &amp; <span className="serif-i text-[18px] sm:text-[20px] text-brass">sustainable innovation.</span></p>
+          <Pill href="#how" variant="ghost-dark">See Execution Framework</Pill>
         </div>
       </div>
       <AnimatePresence>
