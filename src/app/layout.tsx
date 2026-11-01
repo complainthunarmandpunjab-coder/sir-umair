@@ -22,7 +22,12 @@ export const metadata: Metadata = {
     images: [OG],
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/WhatsApp_Image_2026-10-28_at_1.10.20_PM6-removebg-preview.png", type: "image/png" },
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    shortcut: "/WhatsApp_Image_2026-10-28_at_1.10.20_PM6-removebg-preview.png",
+    apple: "/WhatsApp_Image_2026-10-28_at_1.10.20_PM6-removebg-preview.png",
   },
 };
 
@@ -34,6 +39,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="icon" type="image/png" href="/WhatsApp_Image_2026-10-28_at_1.10.20_PM6-removebg-preview.png" />
+        <link rel="apple-touch-icon" href="/WhatsApp_Image_2026-10-28_at_1.10.20_PM6-removebg-preview.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link

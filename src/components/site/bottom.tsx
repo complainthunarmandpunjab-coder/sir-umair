@@ -668,11 +668,17 @@ export function Footer() {
         
         {/* Top 4-column layout matching sitemap */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 sm:gap-14 lg:gap-16 pb-16 sm:pb-24">
-          {/* Column 1: Short Bio & Brand */}
+          {/* Column 1: Short Bio & Brand Logo */}
           <div className="max-w-[280px]">
-            <strong className="block font-display text-[20px] text-white mb-2">
-              Engr. Umair Iftikhar
-            </strong>
+            <a href="#" className="inline-block mb-4 group">
+              <div className="bg-white rounded-xl px-3 py-1.5 inline-flex items-center shadow-sm transition-transform group-hover:scale-105">
+                <img
+                  src="/WhatsApp_Image_2026-10-28_at_1.10.20_PM-removebg-preview.png"
+                  alt="Engr. Umair Iftikhar — Engineering Digital Solutions"
+                  className="h-8 w-auto object-contain"
+                />
+              </div>
+            </a>
             <p className="text-[13px] sm:text-[14px] leading-[1.6] text-bone/65 mb-4">
               Engineering Digital Solutions That Create Real-World Impact. Technology leader, executive, and digital solutions strategist.
             </p>

@@ -26,13 +26,16 @@ export function Nav() {
       {/* Floating Olive Capsule Pill Bar matching Screenshot */}
       <div className="mx-auto flex h-[58px] sm:h-[64px] max-w-[1240px] items-center justify-between rounded-full bg-[#3d4239] px-4 sm:px-6 md:px-7 shadow-[0_16px_40px_-10px_rgba(0,0,0,0.35)] border border-white/10 pointer-events-auto backdrop-blur-md">
         
-        {/* Left: Diamond icon + Name + Title */}
+        {/* Left: Brand Logo + Title */}
         <a href="#" className="flex items-center gap-2.5 sm:gap-3 text-[#f4efe6] group">
-          <span className="text-[#c99557] text-[11px] sm:text-[13px] shrink-0">◆</span>
-          <span className="font-display text-[15px] sm:text-[17px] font-semibold tracking-[-0.02em] whitespace-nowrap text-[#f4efe6]">
-            Umair Iftikhar
-          </span>
-          <span className="hidden md:inline text-[11px] font-mono tracking-[0.2em] uppercase text-[#a2a89c] pl-2 border-l border-white/20 whitespace-nowrap">
+          <div className="flex items-center bg-white rounded-full px-2.5 sm:px-3 py-1 shadow-sm transition-transform duration-300 group-hover:scale-105">
+            <img
+              src="/WhatsApp_Image_2026-10-28_at_1.10.20_PM-removebg-preview.png"
+              alt="Engr. Umair Iftikhar"
+              className="h-6 sm:h-7 w-auto object-contain"
+            />
+          </div>
+          <span className="hidden xl:inline text-[11px] font-mono tracking-[0.2em] uppercase text-[#a2a89c] pl-2 border-l border-white/20 whitespace-nowrap">
             TECHNOLOGY LEADER &amp; STRATEGIST
           </span>
         </a>
